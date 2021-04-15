@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
     "images-scraper": "^6.3.0"
   }
 }

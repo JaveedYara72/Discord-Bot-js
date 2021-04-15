@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+require('dotenv').config()
 
 // $prefix install
 // my prefix is $
@@ -45,4 +46,4 @@ client.on("message", message =>{
     }
 })
 
-client.login("ODMyMTkzMDcwNTgwNjI5NTU0.YHgOMQ.zSR6aUze4sS9nIOnHI0cXiAG9fk")
+client.login(process.env.token)
